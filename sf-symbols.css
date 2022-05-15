@@ -1,0 +1,15 @@
+/*
+to add
+
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+*/
+
+@font-face {
+    font-family: 'SF Pro';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://github.com/Hetp05/Personal-Asserts/blob/main/SF-Pro.ttf) format('tff');
+}
+.SF {
+    font-family: SF Pro;
+}
