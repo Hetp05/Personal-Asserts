@@ -2,6 +2,7 @@
 to add
 
 <link href="https://github.com/Hetp05/Personal-Asserts/blob/main/sf-symbols.css" rel="stylesheet">
+
 */
 
 @font-face {
@@ -10,6 +11,17 @@ to add
     font-weight: 400;
     src: url(https://github.com/Hetp05/Personal-Asserts/blob/main/SF-Pro.ttf) format('tff');
 }
-.SF {
-    font-family: SF Pro;
+
+@font-face {
+    font-family: 'SF Mono';
+    src: url(https://github.com/Hetp05/Personal-Asserts/blob/main/SF-Mono-Regular.otf)
+    format('otf');
+}
+
+p a h1 h2 h3 h4 h5 h6 header textarea button br blockquote body html nav {
+    font-family: 'SF Pro';
+}
+
+code {
+    font-family: 'SF Mono';
 }
