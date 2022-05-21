@@ -1,0 +1,18 @@
+/*
+to add
+
+<link href="https://github.com/Hetp05/Personal-Asserts/blob/main/sf-pro.css" rel="stylesheet">
+
+*/
+
+@font-face {
+    font-family: 'SF Pro';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://github.com/Hetp05/Personal-Asserts/blob/main/SF-Pro.ttf) format('tff');
+}
+
+p h1 a h2 h3 h4 h5 h6 header textarea button br blockquote body html nav {
+    font-family: 'SF Pro';
+}
+
