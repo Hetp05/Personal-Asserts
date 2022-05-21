@@ -18,10 +18,14 @@ to add
     format('otf');
 }
 
-p a h1 h2 h3 h4 h5 h6 header textarea button br blockquote body html nav {
+p a h2 h3 h4 h5 h6 header textarea button br blockquote body html nav {
     font-family: 'SF Pro';
 }
 
 code {
     font-family: 'SF Mono';
+}
+
+h1 {
+    font-family: 'SF Pro';
 }
