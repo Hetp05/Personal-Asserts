@@ -12,20 +12,20 @@ to add
     src: url(https://github.com/Hetp05/Personal-Asserts/blob/main/SF-Pro.ttf) format('tff');
 }
 
-@font-face {
+/* @font-face {
     font-family: 'SF Mono';
     src: url(https://github.com/Hetp05/Personal-Asserts/blob/main/SF-Mono-Regular.otf)
     format('otf');
-}
+} */
 
 p a h2 h3 h4 h5 h6 header textarea button br blockquote body html nav {
     font-family: 'SF Pro';
 }
 
-code {
+/* code {
     font-family: 'SF Mono';
 }
 
 h1 {
     font-family: 'SF Pro';
-}
+} */
