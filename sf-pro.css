@@ -12,7 +12,7 @@ to add
     src: url(https://github.com/Hetp05/Personal-Asserts/blob/main/SF-Pro.ttf) format('tff');
 }
 
-p h1 a h2 h3 h4 h5 h6 header textarea button br blockquote body html nav {
+p, h1, a, h2, h3, h4, h5, h6, header, textarea, button, br, body, html, nav, table {
     font-family: 'SF Pro';
 }
 
