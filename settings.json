@@ -1,0 +1,97 @@
+{
+    // View
+    "editor.fontSize": 15,
+    "editor.fontFamily": "SF Mono",
+    "breadcrumbs.filePath": "off",
+    "window.title": "${activeEditorShort}",
+
+    // Easy Pizy
+    "files.autoSave": "afterDelay",
+    "editor.autoClosingBrackets": "always",
+    // "dart.flutterHotReloadOnSave":"all" ,
+    "grammarly.files.include": ["**/README.md", "**/readme.md", "**/*.txt"],
+
+    // Live Server
+    // https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer
+    // "liveServer.settings.donotShowInfoMsg": true,
+    "liveServer.settings.donotVerifyTags": true,
+    "dart.hotReloadOnSave": "manual",
+    
+    // Vibrancy
+    "vscode_vibrancy.theme": "Light (Only Subbar)",
+
+    // Terminal
+    "terminal.integrated.gpuAcceleration": "off",
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    
+    // Etc (don't know)
+    "diffEditor.ignoreTrimWhitespace": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "dart.flutterHotRestartOnSave": false,
+    "explorer.confirmDelete": false,
+    
+    "workbench.colorCustomizations": {
+        // "sideBar.background": "#f5f5f580"
+        // "statusBar.background": "#ff0000"
+    },
+
+    // Python
+    "code-runner.executorMap": {
+        "python": "python",
+    },
+    
+    // Header
+    // https://marketplace.visualstudio.com/items?itemName=psioniq.psi-header
+
+    "psi-header.config": {
+        "forceToTop": true,
+        "spacesBetweenYears": false,
+        "blankLinesAfter": 1,
+        "author": " Hetp",
+        "authorEmail": " hetp0409@icloud.com",
+        "creationDateZero": "asIs",
+        "license": "MIT"
+    },
+
+    "psi-header.lang-config": [
+        {
+            "language": "Dart",
+            "begin": "// ",
+            "prefix": "// ",
+            "end": "// ",
+            "modDateFormat": "dd/MM/yyyy hh:nn:ss",
+        
+        },
+    ],
+    "psi-header.templates": [
+        {
+            "language": "Dart",
+            "template": [
+                "File: <<Filename>>",
+                "Created Date: <<filecreated('dddd MMMM Do YYYY')>>",
+                "-----",
+                "Author:<<author>>",
+                "Contact me:<<authorEmail>>",
+                // "-----",
+                // "Copyright (c) <<year>> <<company>>"
+            ]
+        },
+    ],
+    "dart.debugExternalPackageLibraries": true,
+    "dart.debugSdkLibraries": false,
+    "dart.warnWhenEditingFilesOutsideWorkspace": false,
+    "npm.keybindingsChangedWarningShown": true,
+    "window.zoomLevel": 1,
+    "extensions.autoUpdate": "onlyEnabledExtensions",
+    "remoteHub.uncommittedChangesOnEntry": "none",
+    "workbench.editorAssociations": {
+        "*.mcpack": "default",
+        "*.otf": "default"
+    },
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "workbench.colorTheme": "Default High Contrast",
+    "git.enableSmartCommit": true,
+    "editor.experimental.stickyScroll.enabled": true,
+    "breadcrumbs.enabled": false,
+    "editor.minimap.enabled": false,
+}
