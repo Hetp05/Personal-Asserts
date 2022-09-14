@@ -6,16 +6,27 @@ to add
 */
 
 @font-face {
-    font-family: 'SF Pro';
+    font-family: 'SF Pro Display';
     font-style: normal;
     font-weight: 400;
-    src: url(https://github.com/Hetp05/Personal-Asserts/blob/main/SF-Pro.otf) format('tff');
+    src: url('https://github.com/Hetp05/Personal-Asserts/blob/main/SF-Pro.otf?raw=true') format('Opentype');
 }
 
-p, h1, a, h2, h3, h4, h5, h6, header, textarea, button, br, body, html, nav, table {
+@font-face {
+    font-family: 'SF Pro Rounded';
+    font-style: normal;
+    font-weight: 400;
+    src: url('https://github.com/Hetp05/Personal-Asserts/blob/main/SF-Pro-Rounded-Regular.otf?raw=true') format('Opentype');
+}
+
+p, header, textarea, button, br, body, html, nav, table {
     font-family: 'SF Pro';
 }
 
 .sf { 
     font-family : 'SF Pro';
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'SF Pro Rounded';
 }
